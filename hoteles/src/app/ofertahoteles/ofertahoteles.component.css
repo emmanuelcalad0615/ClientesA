@@ -1,0 +1,63 @@
+.img1{
+    background-image: url("../../assets/img/Restaurante.jpg");
+    background-position: top center;
+    background-size: cover;
+    padding:5% 40% 27% 10%;
+    position: relative;
+    z-index: 1;
+}
+.img1::after{
+    content:'';
+    position:absolute;
+    background-color: black;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+
+}
+.img2{
+    background-image: url("../../assets/img/atracciones.jpg");
+    background-position: top center;
+    background-size: cover;
+    padding:5% 40% 27% 10%;
+    position: relative;
+    z-index: 1;
+
+}
+.img2::after{
+    content:'';
+    position:absolute;
+    background-color: black;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+
+
+}
+.img3{
+    background-image: url("../../assets/img/habitaciones.jpg");
+    background-position: top center;
+    background-size: cover;
+    padding:5% 40% 27% 10%;
+    position: relative;
+    z-index: 1;
+
+}
+.img3::after{
+    content:'';
+    position:absolute;
+    background-color: black;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+
+}
